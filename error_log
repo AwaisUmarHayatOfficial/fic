@@ -1,0 +1,124 @@
+[06-Apr-2020 10:27:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ficgoppk/public_html/fic-login/admin-includes.php:2
+Stack trace:
+#0 /home/ficgoppk/public_html/header.php(3): include_once()
+#1 /home/ficgoppk/public_html/index.php(2): include_once('/home/ficgoppk/...')
+#2 {main}
+  thrown in /home/ficgoppk/public_html/fic-login/admin-includes.php on line 2
+[06-Apr-2020 10:27:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ficgoppk/public_html/fic-login/admin-includes.php:2
+Stack trace:
+#0 /home/ficgoppk/public_html/header.php(3): include_once()
+#1 /home/ficgoppk/public_html/index.php(2): include_once('/home/ficgoppk/...')
+#2 {main}
+  thrown in /home/ficgoppk/public_html/fic-login/admin-includes.php on line 2
+[06-Apr-2020 10:27:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ficgoppk/public_html/fic-login/admin-includes.php:2
+Stack trace:
+#0 /home/ficgoppk/public_html/header.php(3): include_once()
+#1 /home/ficgoppk/public_html/index.php(2): include_once('/home/ficgoppk/...')
+#2 {main}
+  thrown in /home/ficgoppk/public_html/fic-login/admin-includes.php on line 2
+[06-Apr-2020 10:30:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ficgoppk/public_html/fic-login/admin-includes.php:2
+Stack trace:
+#0 /home/ficgoppk/public_html/header.php(3): include_once()
+#1 /home/ficgoppk/public_html/index.php(2): include_once('/home/ficgoppk/...')
+#2 {main}
+  thrown in /home/ficgoppk/public_html/fic-login/admin-includes.php on line 2
+[06-Apr-2020 10:34:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ficgoppk/public_html/fic-login/admin-includes.php:2
+Stack trace:
+#0 /home/ficgoppk/public_html/header.php(3): include_once()
+#1 /home/ficgoppk/public_html/index.php(2): include_once('/home/ficgoppk/...')
+#2 {main}
+  thrown in /home/ficgoppk/public_html/fic-login/admin-includes.php on line 2
+[06-Apr-2020 10:37:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ficgoppk/public_html/fic-login/admin-includes.php:2
+Stack trace:
+#0 /home/ficgoppk/public_html/header.php(3): include_once()
+#1 /home/ficgoppk/public_html/index.php(2): include_once('/home/ficgoppk/...')
+#2 {main}
+  thrown in /home/ficgoppk/public_html/fic-login/admin-includes.php on line 2
+[06-Apr-2020 10:37:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ficgoppk/public_html/fic-login/admin-includes.php:2
+Stack trace:
+#0 /home/ficgoppk/public_html/header.php(3): include_once()
+#1 /home/ficgoppk/public_html/index.php(2): include_once('/home/ficgoppk/...')
+#2 {main}
+  thrown in /home/ficgoppk/public_html/fic-login/admin-includes.php on line 2
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/ficgoppk/public_html/fic-login/admin-includes.php on line 2
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/ficgoppk/public_html/fic-login/admin-includes.php on line 3
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 243
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 243
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 245
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 279
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 279
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 281
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 345
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 345
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 347
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 413
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 413
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 415
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 481
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 481
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 483
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 545
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 545
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 547
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 613
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 613
+[30-Apr-2020 21:34:24 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 615
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/rs-menu.php on line 11
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/rs-menu.php on line 11
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/rs-menu.php on line 12
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/rs-menu.php on line 30
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/rs-menu.php on line 30
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/rs-menu.php on line 31
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/rs-menu.php on line 50
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/rs-menu.php on line 50
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/rs-menu.php on line 51
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/rs-menu.php on line 69
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/rs-menu.php on line 69
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/rs-menu.php on line 70
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/rs-menu.php on line 88
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/rs-menu.php on line 88
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/rs-menu.php on line 89
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/rs-menu.php on line 109
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/rs-menu.php on line 109
+[30-Apr-2020 21:34:25 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/rs-menu.php on line 110
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_connect(): Connection refused in /home/ficgoppk/public_html/fic-login/admin-includes.php on line 2
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/ficgoppk/public_html/fic-login/admin-includes.php on line 3
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 243
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 243
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 245
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 279
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 279
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 281
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 345
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 345
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 347
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 413
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 413
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 415
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 481
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 481
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 483
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 545
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 545
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 547
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/header.php on line 613
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/header.php on line 613
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/header.php on line 615
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/rs-menu.php on line 11
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/rs-menu.php on line 11
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/rs-menu.php on line 12
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/rs-menu.php on line 30
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/rs-menu.php on line 30
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/rs-menu.php on line 31
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/rs-menu.php on line 50
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/rs-menu.php on line 50
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/rs-menu.php on line 51
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/rs-menu.php on line 69
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/rs-menu.php on line 69
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/rs-menu.php on line 70
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/rs-menu.php on line 88
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/rs-menu.php on line 88
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/rs-menu.php on line 89
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): Connection refused in /home/ficgoppk/public_html/rs-menu.php on line 109
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ficgoppk/public_html/rs-menu.php on line 109
+[30-Apr-2020 21:35:28 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ficgoppk/public_html/rs-menu.php on line 110
