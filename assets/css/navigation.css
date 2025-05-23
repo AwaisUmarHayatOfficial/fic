@@ -1,0 +1,447 @@
+.clear { clear:both; display:block; overflow: hidden; }
+
+/* -- Accessibility Dropdown ------------- */
+#accessHover .accessLink { background: #ffffff; display: block; position: relative; text-decoration: none; float: left; }
+
+#topLinks ul li .accessLink .accessDrop {
+  display: none;
+  position: absolute;
+  top:-4px;
+  left:-16px;
+  width:133px;
+  height: 61px;
+  background-image: url('https://web/20250222152132im_/http://fic.gop.pk/css/..images/accessDrop_bg.png');
+  text-decoration: none;
+}
+
+
+#accessHover a #up:hover, #accessHover a #reset:hover, #accessHover a #down:hover { text-decoration: underline; }
+
+.accessDrop_accessibility { display: block; margin: 4px 0 0 16px; }
+.accessDrop_links { display: block; margin: 13px 0 0 16px; font-size:13px; }
+
+
+
+/* -- Main Navigation Dropdown ------------- */
+#navigation {
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 33px;
+    margin: 0 auto;
+    padding-left: 20px;
+    max-width: 960px;
+    width: 100%;
+}
+@media screen and (max-width:990px){
+    #navigation {
+        max-width:940px;
+    }
+}
+@media screen and (max-width:950px){
+    #navigation {
+        display:none;
+    }
+}
+
+#nav_BG {
+    background: url("https://web/20250222152132im_/http://fic.gop.pk/css/images/bottomHeader_shadow.png") repeat-x scroll center top transparent;
+    height: 33px;
+}
+
+#header {
+  background: url(https://web/20250222152132im_/http://fic.gop.pk/css/header.jpg) no-repeat;
+  max-width: 970px;
+  width: 100%; 
+  height: 179px;
+  float: left;
+}
+
+/*.navEnd {
+  width:2px;
+ height:34px;
+ background-image:url("/web/20250222152132im_/http://fic.gop.pk/css/images/themes/navSeperator_Blue.png");
+} */
+
+ul#topnav {
+  margin: 0;
+  padding: 0;
+  float:left;
+  width: 100%;
+  list-style: none;
+  font-size: 12px;
+}
+
+ul#topnav li {
+  float: left;
+  /* [disabled]margin: 0; */
+  /* [disabled]padding: 0; */
+  position: relative;
+  display:block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#topnav .navEnd { display:block; height:33px; width:2px; background-image:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/themes/navSeperator_Blue.png); }
+
+ul#topnav li a {
+  float: left;
+  /* [disabled]text-indent: -9999px; */
+  color: #FFF;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  /* [disabled]margin: 10px 0; */
+  line-height:33px;
+  padding: 0px 12px;
+  text-decoration:none;
+  /* margin:-2px 0; */
+  display:block;
+  background-image:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/navSeperator.png);
+  background-repeat:no-repeat;
+  background-position:top left;
+}
+
+.nav_arrow { margin: 0 0 2px 7px; }
+
+*html .nav_arrow { position:absolute; right:0px; top:15px; margin:0 5px; }
+
+ul#topnav li:hover a, ul#topnav li a:hover {
+  /* [disabled]background-position: left bottom; */
+  background:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/home_current_middle.png) repeat-x;
+  /* [disabled]height:37px; */
+  margin-top:-2px;
+  margin-bottom:-2px;
+  color:#333;
+  display:block;
+  line-height:37px;
+  height: 37px;
+}
+
+.topMenu { height:37px; line-height:37px; margin:0; display:block; }
+
+.itemhover {
+  background:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/home_current_middle.png) repeat-x;
+  height:37px;
+  margin-top:-2px !important;
+  margin-bottom:-2px !important;
+  line-height:37px;
+  display:block;
+  padding-top:2px !important;
+}
+
+ul#topnav .itemhover .sub {margin-top:0px; }
+ul#topnav .itemhover .topMenu { background:none; }
+
+ul#topnav li .sub {
+  position: absolute;
+  top: 35px;
+  left:0px;
+  display: none;
+  margin-top:-2px;
+  margin-left:-4px;
+  background:transparent;
+  z-index: 500;
+  /* [disabled]padding: 10px 3px; */
+}
+
+
+ul#topnav li:hover .sub { display:block; position:absolute; }
+
+.BGcolor { background:url("https://web/20250222152132im_/http://fic.gop.pk/css/images/box_3_bottom_inner.png") repeat-x bottom #FFFFFF; margin:0 4px; padding:0px 3px; }
+.shadowLeft { background-image:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_left.png); background-repeat:repeat-y; background-position:left; }
+.shadowRight { background-image:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_right.png); background-repeat:repeat-y; background-position:right; }
+.shadowBottom { height:4px; }
+.shadowBottomLeft { background:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_bottomLeft.png) ; width:4px; height:4px; float:left; }
+.shadowBottomRight { background:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_bottomRight.png) ; width:4px; height:4px; float:right; }
+.shadowBottomBG { background:url(https://web/20250222152132im_/http://fic.gop.pk/css/images/dropDownShadow_bottom.png) repeat-x; height:4px; margin:0 4px; }
+
+/*ul#topnav li:hover .sub{ margin-top:-2px; }*/
+
+ul#topnav li .row {
+  /* [disabled]clear: both; */
+  /* [disabled]float: left; */
+  /* [disabled]width: 100%; */
+  /* [disabled]margin-bottom: 10px; */
+}
+
+ul#topnav li .sub ul{
+  list-style: none;
+  margin: 10px 6px 16px;
+  width: 190px;
+  float: left;
+  display:block;
+}
+
+ul#topnav .sub ul li {
+  color: #333;
+  display:block;
+  /* [disabled]height:26px;
+  border-bottom:#CCC dashed 1px; */
+  width:100%;
+  padding: 0;
+  margin: 0;
+  /* [disabled]padding:3px 0; */
+}
+
+ul#topnav li .sub ul .menuTitle { 
+  height:21px;
+  margin-bottom:2px;
+  border-bottom:1px dotted #BBD9FF; 
+  display:block; 
+  /* background-image:url(/web/20250222152132im_/http://fic.gop.pk/css/images/block_button.png);
+  background-repeat:repeat-x; */
+}
+
+ul#topnav li .sub ul .menuTitle a {
+  height:20px;
+  line-height:20px;
+  color:#8a0303;
+  margin:0;
+  padding:0 5px;
+  font-size:13px;
+  display:block;
+  font-weight:bold;
+  text-decoration:none;
+  background-color:transparent;
+}
+
+ul#topnav li .sub ul .menuTitle a:hover, #topnav li .sub ul .menuTitle a.subnavHover { color:#630f0f; text-decoration:none; background:none; line-height:20px; margin:0px; padding:0px 5px;}
+
+ul#topnav .sub ul li a {
+  margin:0px;
+  padding:5px;
+  /* [disabled]height:26px; */
+  line-height:17px !important;
+  font-size:12px;
+  font-weight:normal;
+  color:#333;
+  height: auto;
+  background-image:none;
+  /* [disabled]float: none; */
+  /* [disabled]text-indent: 0; */ /*--Reset text indent--*/
+  display: block;
+  /* [disabled]text-decoration: none; */
+  /* [disabled]color: #fff; */
+}
+ul#topnav .sub ul li a:hover, ul#topnav .sub ul li .subnavHover {
+  color: #8a0303; background:none; line-height:17px; margin:0px; padding:5px;
+}
+
+.rs-menu{
+    display: none;
+}
+@media screen and (max-width:949px){
+    .rs-menu{
+        display: block;
+        max-width: 960px;
+        width: 94%;
+    }
+}
+
+.toggleMenu {
+    display:  none;
+    width: 94% !important;
+    padding: 4px 15px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.nav {
+    margin: 0 0 0 0.5px;
+    width: 106%;
+    list-style: none;
+     *zoom: 1;
+     background:#890A0A;
+     z-index: 1111 !important;
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+    z-index: 1111 !important;
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+    width: 9em;
+}
+.nav a {
+    padding: 10px 15px;
+    color:#fff;
+    text-decoration: none;
+}
+.nav li {
+    position: relative;
+}
+.nav > li {
+    float: left;
+    border-top: 1px solid #104336;
+}
+.nav > li > .parent {
+    background-image: url(assets/images/downArrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.nav > li > a {
+    display: block;
+    text-decoration: none;
+    background: #890A0A;
+}
+.nav li  ul {
+    position: absolute;
+    left: -9999px;
+}
+.nav > li.hover > ul {
+    left: 0;
+}
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+.nav li li a {
+    display: block;
+    background: #B70404;
+    position: relative;
+    text-decoration: none;
+    z-index:100;
+    border-top: 1px solid #175e4c;
+}
+.nav li li li a {
+    background:#b11414;
+    z-index:200;
+    text-decoration: none;
+    border-top: 1px solid #1d7a62;
+}
+
+@media screen and (max-width:950px) {
+    .active {
+        display: block;
+        
+    }
+    .nav > li {
+        float: none;
+        z-index: 1111 !important;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav li li .parent {
+        background-image: url(assets/images/downArrow.png);
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .nav ul {
+        display: block;
+        width: 100%;
+        z-index: 1111 !important;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+        z-index: 1111 !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
+
+/*
+     FILE ARCHIVED ON 15:21:32 Feb 22, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:54:50 May 14, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.625
+  exclusion.robots: 0.028
+  exclusion.robots.policy: 0.013
+  esindex: 0.013
+  cdx.remote: 66.727
+  LoadShardBlock: 73.185 (3)
+  PetaboxLoader3.datanode: 79.615 (4)
+  load_resource: 15.636
+*/

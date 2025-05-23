@@ -1,0 +1,1070 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* -- RESET (Yahoo CSS Reset) --*/
+body,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,blockquote,th,td {
+  margin:0;
+  padding:0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  color:#333333;
+}
+body{
+    min-width: 320px;
+}
+
+.page_link{
+ text-decoration: none;   
+}
+.page_link:hover{
+    text-decoration: underline;
+}
+.active_link{
+    color: #7F0B0B !important;
+}
+
+td{
+  padding-top:5px;
+  padding-right:5px;
+}
+th{
+  padding-top:5px;
+  font-weight:bold;
+  color:#111;
+  font-size:14px;
+}
+strong{
+  font-weight:bold;
+}
+em{
+  font-style:italic;
+}
+
+a img{outline:none }
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+fieldset,img {
+  border:0;
+}
+address,caption,cite,code,dfn,th,var {
+  font-style:normal;
+  font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;
+}
+
+*html input {
+   border: 0; 
+}
+
+/* PAGE TEMPLATE --------------------------------------- */
+
+
+#container {
+  /* [disabled]min-height:500px; */
+  padding: 20px -1px 0px -1px;
+}
+
+.contentWidgets{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#contentRightWidgets{
+  float:right; 
+  max-width:210px;
+  padding: 16px 25px 0 15px;
+}
+
+.leftBannerImage{
+  height:100px;
+  position:relative;
+}
+
+#top_header {
+  height:43px;
+  width:960px;
+  margin: 0 auto 0 auto;
+  color:#FFF;
+}
+
+#top_header_back {
+  background-image: url("https://web/20250222152138im_/http://fic.gop.pk/css/images/topHeader.png");
+  background-repeat:repeat-x;  
+  width:100%;
+  height:15px;
+}
+
+#topLinksLeft{
+  margin-top:8px;
+  margin-left:10px;
+  height:24px;
+  width:8px;
+  float:left;
+}
+
+#topLinks{
+  height:26px;
+  float:left;
+  margin-top:8px;
+  background-color:#FFFFFF;
+  background-image:url(https://web/20250222152138im_/http://fic.gop.pk/css/images/topSlice.png);
+  background-repeat:repeat-x;
+  position: relative;
+}
+
+*html #topLinks {
+  position: static; 
+}
+
+#topLinksRight{
+  margin-top:8px;
+  height:24px;
+  width:8px;
+  float:left;
+}
+
+#topLinks a{
+  font-size:12px;
+  text-decoration:none;
+  color:#000;
+  position: relative;
+}
+
+#topLinks a:hover{
+  text-decoration:underline;
+}
+
+#topLinks ul{
+  margin-top:5px;
+  float:left;
+  list-style:none;
+}
+
+#topLinks ul li{
+  display:inline;
+  padding-left:8px;
+  padding-right:8px;
+  float:left;
+  border-right-color:#BBB;
+  border-right-style:solid;
+  border-right-width:1px;
+  position: relative;
+}
+  
+#searchBox{
+  width:193px;
+  height:26px;
+  margin-top:8px;
+  background-color:#FFFFFF;
+  color:#444;
+  float:right;
+  background-image:url(https://web/20250222152138im_/http://fic.gop.pk/css/images/topSlice.png);
+  background-repeat:repeat-x;
+  border: 0;
+}
+
+#searchBoxText{
+  margin-top:3px;
+  height:24px;
+  width:193px;
+}
+
+*html #searchBoxText {
+  height: 21px; 
+}
+
+#searchButton{
+  height:24px;
+  width:30px;
+  float:right;
+  margin-right:10px;
+  margin-top:8px;
+}
+.topBarLeft{
+  height:24px;
+  width:8px;
+  float:right;
+  margin-top:8px;
+}
+
+#bottom_header {
+  height:99px;
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  padding: 0px;
+  background-position:left center;
+  background-repeat:no-repeat;
+}
+@media screen and (max-width:930px){
+    #bottom_header{
+        width:97%;
+    }
+}
+
+#bottom_header_back {
+  height:99px;
+  width:100%;
+  background-color:#FFF;
+}
+
+#headerLeft{
+  float:left;
+  height:99px;
+}
+.copyrighttext{
+    margin-top: 7px;
+}
+
+
+.logo_off{
+    display: none;
+}
+.logo_offff{
+    display: none;
+}
+@media screen and (max-width:685px){
+    .logo_off {
+        display: block;
+    }
+}
+@media screen and (max-width:685px){
+    .logo_on {
+        display: none;
+    }
+}
+@media screen and (max-width:485px){
+    .logo_off {
+        display: none;
+    }
+}
+@media screen and (max-width:485px){
+    .logo_offff {
+        display: block;
+    }
+}
+
+#logo {
+  float:left;
+}
+
+@media screen and (max-width:940px){
+    #logo {
+        margin-left:10px;
+    }
+}
+#govt {
+  float:right;
+  margin-top: 10px;
+}
+@media screen and (max-width:960px){
+    #govt {
+        margin-right:5px;
+    }
+}
+@media screen and (max-width:950px){
+    #govt {
+        margin-right:13px;
+    }
+}
+@media screen and (max-width:940px){
+    #govt {
+        margin-right:23px;
+    }
+}
+@media screen and (max-width:935px){
+    #govt {
+        margin-right:29px;
+    }
+}
+@media screen and (max-width:930px){
+    #govt {
+        display:none;
+    }
+}
+
+#left_column {
+  min-height:300px;
+  height:auto !important; height:300px;
+}
+
+#navigation {
+  margin:0px auto;
+  padding-left:20px;
+  height:33px;
+  width:960px;
+  color:#FFF;
+  font-size:14px;
+}
+
+#nav_BG {
+  background:url(https://web/20250222152138im_/http://fic.gop.pk/css/images/bottomHeader_shadow.png) top repeat-x;
+  height:33px;
+}
+.featureBox{
+  min-height:60px;
+  height:auto !important; 
+  height:60px;
+  overflow:hidden;
+}
+
+*html .featureBox { 
+  overflow:visible;
+}
+
+.dropDown {
+  float: left;
+  height:auto;
+  width:200px;
+  background-image:url(https://web/20250222152138im_/http://fic.gop.pk/css/images/link_BG_level2.png);
+  background-repeat:repeat-x;
+  background-color:#009933;
+  background-position:bottom;
+}
+
+.dropDownShadow {
+  float:left;
+  background-image:url(https://web/20250222152138im_/http://fic.gop.pk/css/images/link_BG_level2_shadow.png);
+  background-repeat:repeat-y;
+  background-position:right;
+  height:auto;
+  width:206px;  
+}
+
+.dropDownShadowBottom {
+  background-image:url(https://web/20250222152138im_/http://fic.gop.pk/css/images/link_BG_level2_shadow_bottom.png);
+  width:206px;
+  height:6px;
+  float:left;  
+}
+
+#feature_left {
+  margin-bottom:20px;
+  height:100px;
+  background-color:#FFC;
+}
+
+#footer {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  color:#333;
+  padding:20px;
+}
+
+.copyrightDiv { margin-bottom:5px !important; }
+.copyrightDiv div { padding-bottom:5px; text-align:center; font-size:10px; color:#777; width:100%; }
+.copyrightDiv div a { color:#AAA !important; text-decoration:none; }
+.copyrightDiv div a:hover { text-decoration:underline; }
+
+#footer_BG {
+  width:100%;
+  height:116px;
+  clear:both;
+  border-top:6px solid #B00505;
+  background: #E6E7E8;
+}
+@media screen and (max-width:505px){
+  #footer_BG {
+    height:210px;
+  }    
+}
+@media screen and (max-width:336px){
+  #footer_BG {
+    height:330px;
+  }    
+}
+#footer_BG .grid_2 a{
+  text-decoration:none;
+  color:#000;
+}
+#footer_BG .grid_2 a:hover{
+  text-decoration:underline;
+}
+
+#sharing{
+  margin-top:20px;
+}
+
+.shareText{
+  margin-top:8px;
+  float:right;
+}
+
+.socialLink{
+  float:right;
+  margin-left:10px;
+}
+
+#footer_text {
+  padding-top:30px;
+  width:600px;
+}
+
+.logoBox{
+  padding-left: 40px;
+    padding-top: 14px;
+}
+
+/*.footerGrid{
+    padding-top:7px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}*/
+
+.footerBox{
+  margin-top:16px;
+  border-right-style:solid;
+  border-right-width:1px;
+  border-right-color:#FFF;
+  line-height:26px;
+}
+.back-color-in-footer{
+    background-color: #005199;
+}
+.footer-logo-hide{
+    
+}
+@media screen and (max-width:674px){
+    .footer-logo-hide{
+        display:none !important;
+    }
+}
+.footerBox1{
+  line-height:22px;
+  margin-top:20px;
+}
+
+.paddingTen {
+ padding: 10px;
+}
+
+.loseSideMargins { 
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.block_stepShadow_forImage { background-image:url(https://web/20250222152138im_/http://fic.gop.pk/css/images/box_stepShadow.png); background-repeat:repeat-x; height:11px; margin-bottom:-11px; display:block; }
+
+.block_image_widget { height:115px; margin:0; width: 100%; background-size: 100% auto; overflow:hidden; display:block; background-repeat:no-repeat; }
+.block_button { background:url(https://web/20250222152138im_/http://fic.gop.pk/css/images/block_button.png) repeat-x; height:20px; padding:3px 8px; line-height:20px; color:#FFFFFF; text-decoration:none; font-size:12px; font-weight:bold; color:#FFF; text-align:center; margin-top:5px; text-decoration:none; }
+.block_button:hover { text-decoration:underline; }
+
+/*.block_button_events { background:url(/web/20250222152138im_/http://fic.gop.pk/css/images/block_button.png) repeat-x; height:30px; line-height:20px; padding:0 10px; font-size:12px; font-weight:bold; color:#FFF; text-align:center; margin-left:10px; margin-top:15px; }
+.block_button_events a { color:#FFFFFF; text-decoration:none;}*/
+
+.widgetText { line-height:19px; margin-bottom:10px;}
+#recaptcha_area { float:left; margin-bottom:20px;}
+
+/* home page -------------------------------------- */
+
+#content {
+
+  z-index: -111;
+}
+
+.grid_3 ul li { color: #333333; }
+
+/* *html #content {
+  position:relative;
+  z-index: -3;
+} */
+
+
+#welcome {
+}
+
+#home_contact {
+  margin-top:20px;
+  font-size:14px;
+  font-weight:bold;
+  color:#036;
+}
+
+#center_block {
+  width: 960px;
+  float:left;
+}
+
+.homeBlock_3 {
+  background:url(https://web/20250222152138im_/http://fic.gop.pk/css/images/homeBlock_bg.png) no-repeat top;
+  min-height:200px;
+  height:auto !important; height:200px;
+}
+
+.blockImage {
+  margin:5px;
+  width:210px;
+  height:132px;
+}
+@media screen and (max-width:950px){
+    #hide_on{
+        display:none;
+    }
+}
+@media screen and (max-width:761px){
+    .hide-in-time{
+        display:none;
+    }
+}
+
+.blockHeading {
+  height:35px;
+  color:#FFF;
+  font-size:18px;
+  font-weight:bold;
+  text-align:center;
+  padding-top:13px;
+}
+
+.blockLinks {
+  height:22px;
+  border-bottom: #CCC solid 1px;
+  padding-left:10px;
+  padding-top:8px;
+  font-weight:bold;
+  color:#036;
+}
+
+#block2 {
+  width:220px;
+  float:left;
+  margin-bottom:20px;
+}
+
+#block3 {
+  width:460px;
+  float:left;
+  margin-bottom:20px;
+}
+
+#right_block {
+  height:260px;
+  background-color:#F4F5F6;
+}
+
+#bannerImage{
+    max-width: 900px;
+    width: 100%;
+}
+@media screen and (max-width:750px){
+    #bannerImage{
+        width:98%;
+    }
+}
+@media screen and (max-width:650px){
+    #bannerImage{
+        width:97%;
+    }
+}
+@media screen and (max-width:550px){
+    #bannerImage{
+        width:96%;
+    }
+}
+@media screen and (max-width:450px){
+    #bannerImage{
+        width:95%;
+    }
+}
+
+/*#slider a { display: none; }*/
+
+#slider{ 
+  background-image:url(https://web/20250222152138im_/http://fic.gop.pk/css/images/ajax-loader.gif); 
+  background-repeat:no-repeat;
+  background-position:center;
+  height:278px;
+  z-index: -1111 !important;
+  overflow:hidden;
+}
+
+.sliderImage{
+  overflow:hidden;
+  max-width: 700px;
+  width: 100%;
+}
+
+.featuBlueWidget {color:#1D4D87; background:none;}
+.featuBlueTitle {width:82px; height:15px; background-color:#1D4D87; text-align:center; font-weight:bold; color:#FFF; padding-top:3px;}
+.featuBlueHeading {font-size:24px}
+.featuBlueImage {width:220px; height:158px;}
+.featuBlueText {line-height:18px; color:#000}
+.featuBlueLink {color:#1D4D87; font-weight:bold; text-decoration:underline;}
+
+.home_blockHeader { font-size:15px; font-weight:bold; margin-bottom:6px; }
+.home_blockImage { height:89px; margin-bottom:10px; background-color: #666; }
+.home_blockText { overflow:hidden; height:74px;}
+.home_blockLink { margin-top:10px; padding-right:10px; padding-top:10px; text-align:right; color:#000; font-size:12px; font-weight:bold; }
+.home_blockLink a {color:#000; text-decoration:none;}
+
+.home_contactNumber{ text-align: center; font-weight:bold; font-size:22px; margin:10px 8px 0px;}
+.home_smallWidgetTitle { font-size:16px; font-weight:bold; margin:0px; padding:0px;}
+.home_smallWidgetImage { height:100px; width:220px; background-color: #666; }
+.home_smalLWidgetText { overflow:hidden; height:40px; width:200px;}
+.home_smallWidgetLink { text-align:right; color:#333; font-size:12px; font-weight:bold; }
+.home_smallWidgetLink a {color:#000; text-decoration:none;}
+.home_welcomeImage{height:350px; width:940px;}
+.home_welcomeText{font-size:26px; width:237px; height:129px; padding:10px; padding-left:20px; background-color:#005199; color:#FFF; position:absolute; bottom:15px; left:650px;-moz-user-select: none; -khtml-user-select: none; user-select: none;cursor:default;}
+.ourHospitalsLink{font-size:13px;}
+
+/*News and Event Widgets*/
+.newsBlock {width: 100%; float:left; border-bottom:solid 1px #DDD; padding-bottom:10px; margin-bottom:10px; overflow:hidden;}
+.newsBlock_date { font-size:11px; }
+.newsBlock_title { font-size:13px; font-weight:bold; margin-bottom:6px; line-height:18px; color: #8a0303; text-decoration:none; }
+.newsBlock_title a { color:#8a0303; text-decoration:none; }
+.newsBlock_title a:hover { text-decoration:underline; }
+.newsBlock_text { font-size:11.6px; margin-bottom:5px;  line-height:16px; }
+.newsBlock_text a { font-weight:bold; text-decoration:underline; color:#333; }
+.newsBlock_text a:hover { color:#8a0303; }
+
+.newsEventPageBlock{border-width: 0px 0px 1px 0px; border-style: solid; float:left; border-color:#CCD0DB; padding-bottom:20px;}
+.newsEventText{float:left; width:340px; margin-left:10px;}
+.newsEventsResults{}
+/*End News and Event Widgets*/
+
+.event { width:198px; border-bottom:1px solid #CCC; overflow:hidden;}
+.eventGrey { width:198px; border-bottom:1px solid #CCC; overflow:hidden; background:#F5F5F5;}
+*html .eventGrey { background:none; }
+
+.eventDate{
+  height:37px;
+  width:48px;
+  background-image:url(https://web/20250222152138im_/http://fic.gop.pk/css/images/dateBack_small.png);
+  background-repeat:no-repeat;
+  float:left;
+}
+
+.eventDateMonth {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  color: #EEE;
+  line-height:17px;
+}
+.eventDateDay {
+  text-align:center;
+  font-size:16px;
+  font-weight:bold;
+  line-height:17px;
+}
+
+.eventTitle{
+  width:120px;
+  float:left;
+  font-size:13px;
+  font-weight:bold;
+  margin-left:10px;
+}
+
+.eventTitle a{
+  text-decoration:none;
+  color:#333;
+}
+
+.eventTitle a:hover{
+  color:#1276CC;  
+}
+
+/* Search form */
+
+#xsltsearch { padding: 20px 0; }
+
+.xsltsearch_form input[type="text"] { width: 200px; padding: 3px; font: normal 12px arial, tahoma, sans-serif; }
+.xsltsearch_form input[type="submit"] { width: auto; padding: 3px; font: normal 12px arial, tahoma, sans-serif; }
+.xsltsearch_result p, #xsltsearch_summary { line-height: 140%; margin: 0 0 10px 12px; }
+.xsltsearch_result_title { font-size: 14px; margin-bottom: 5px; }
+
+
+/* Overlay
+================================================================================*/ 
+
+/* the overlayed element */
+.apple_overlay {
+  
+  /* initially overlay is hidden */
+  display:none;
+  
+  /* growing background image */
+ background-image:url('https://web/20250222152138im_/http://fic.gop.pk/css/..images/overlay/apple.png');
+  
+  /* 
+    width after the growing animation finishes
+    height is automatically calculated
+  */
+  width:714px;    
+  margin: 0;
+  
+  /* some padding to layout nested elements nicely  */
+  padding:35px;
+  /* a little styling */  
+  font-size:11px;
+}
+
+.contentWrap { padding: 7px 11px 7px 5px; _padding: 0; }
+
+/* default close button positioned on upper right corner */
+.apple_overlay .close {
+  background-image:url('https://web/20250222152138im_/http://fic.gop.pk/css/..images/overlay/close.png');
+  position:absolute; right:5px; top:5px;
+  cursor:pointer;
+  height:35px;
+  width:35px;
+}
+
+
+/**
+ * Search results
+ */
+
+ul.searchTabs { /* general settings */
+  text-align: left; /* set to left, right or center */
+  /* margin: 1em 0 20px 0;  set margins as desiBlue */
+  border-bottom: 2px solid #0E3C65; /* set border COLOR as desiBlue */
+  list-style-type: none;
+  /* padding: 3px 10px 3px 0;  THIRD number must change with respect to padding-top (X) below */
+  height:29px;
+}
+
+ul.searchTabs li { /* do not change */
+  display: inline;
+  font-size: 12px;
+}
+
+ul.searchTabs li.selected a { /* settings for selected tab */
+  background-image:url('https://web/20250222152138im_/http://fic.gop.pk/css/..images/search_tab_on.jpg');
+  color:#FFF;
+}
+
+body#tab1 li.tab1 a, body#tab2 li.tab2 a, body#tab3 li.tab3 a, body#tab4 li.tab4 a { /* settings for selected tab link */
+  background-color: #fff; /* set selected tab background color as desiBlue */
+  color: #000; /* set selected tab link color as desiBlue */
+  position: relative;
+  top: 1px;
+  padding-top: 4px; /* must change with respect to padding (X) above and below */
+}
+
+ul.searchTabs li a { /* settings for all tab links */
+  /* padding: 3px 4px;  set padding (tab size) as desiBlue; FIRST number must change with respect to padding-top (X) above */
+  /* border: 1px solid #bdbdbd;  set border COLOR as desiBlue; usually matches border color specified in #tabnav 
+  background-color: #e2e2e2; set unselected tab background color as desiBlue */
+  height:29px;
+  width:88px;
+  font-size:14px;
+  color: #1975C7; /* set unselected tab link color as desiBlue */
+  background-image:url('https://web/20250222152138im_/http://fic.gop.pk/css/..images/search_tab_off.jpg');
+  margin-right: 1px; /* set additional spacing between tabs as desiBlue */
+  text-decoration: none;
+  border-bottom: none;
+  display:block;
+  float:left;
+  text-align:center;
+  line-height:29px;
+  cursor: pointer;
+}
+
+ul.searchTabs a:hover { /* settings for hover effect */
+  background-image:url('https://web/20250222152138im_/http://fic.gop.pk/css/..images/search_tab_on.jpg');
+  color:#FFF;
+}
+
+.searchBox { 
+  padding: 0 0 2px 9px; 
+  font-size: 19px; 
+  width: 393px; 
+  height:28px;
+  background-image:url('https://web/20250222152138im_/http://fic.gop.pk/css/..images/search_searchBarBG.jpg');
+  border:0;
+  float:left;
+  margin-top: 3px;
+}
+
+*html .searchBox {
+   padding: 3px 0 2px 9px;
+  height: 25px;
+  margin-top: 3px;
+}
+
+#searchBtn { float:right; margin-top: 3px; }
+
+#searchTop { height:18px; width:193px; font-size:12px; color:#888; border-style:none; border: 0; }
+
+*html #searchTop { height: 18px; border: 0; padding: 0; margin: 0; }
+
+/**
+ * Pagination
+ */
+#searchPages { text-align:center; margin-left: 10px; }
+
+ul.pagination { list-style: none; margin: 0 0 0 10px; padding: 0; }
+ul.pagination li { list-style: none; float: left; margin-right: 10px; font-size:13px; color:#666; }
+ul.pagination li a { text-decoration: none; display: block; width:24px; height:20px; line-height:20px; text-align:center; }
+ul.pagination li.selected a { color:#fff; background-image:url('https://web/20250222152138im_/http://fic.gop.pk/css/..images/search_selectedBG.png'); }
+
+#results { background:url(https://web/20250222152138im_/http://fic.gop.pk/css/images/resultsBG.png) repeat; padding:0; margin:0;}
+
+.result { min-height:63px; height:auto; padding: 10px 12px; }
+*html .result { height:63px; }
+.result:hover { background-color:#EEF4FA;  }
+.result p { line-height: 140%; margin: 5px 0 0; }
+.result p strong { font-weight: bold; }
+.result h3 { margin:0;}
+.result h3 a { color:#1276CC; font-size:16px; text-decoration:none; font-weight:normal; }
+.result h3 a:hover { color:#2AA8AA; }
+
+#middlecontent p { margin-bottom: 10px; }
+
+.mainContentPadding { padding: 15px 15px 40px !important; }
+
+.mainContentPadding ul li { padding: 3px 0 5px 0; }
+
+
+.mainContentPadding a, .mainContentPadding a:link, .mainContentPadding a:visited, .mainContentPadding a:active {  
+  color:#3366CC; text-decoration:underline;
+}
+.mainContentPadding a:hover { color:#2AA8AA; }
+
+.tabcontent h2 { margin-top:0px; }
+
+.pageNumbers{
+  width:400px;
+  margin-left: 10px;
+}
+
+.pageNumbers a {
+  padding-left: 10px;
+}
+
+/*Google Maps*/
+
+#map1 img{
+  background-color:transparent;
+}
+
+/*End Google Maps*/
+
+.gocbookingform  label {
+  float: none !important;
+  display: block;
+}
+
+.gocbookingform .checkboxlist input, .gocbookingform .radiobuttonlist input {
+    margin-right: 5px !important;
+}
+
+#contour div { clear: both !important; }
+#contour .checkboxlist input, #contour .radiobuttonlist input, #contour .checkbox input { margin-right: 5px !important;  }
+
+#contour .contourNavigation { margin-top: 15px !important; }
+#contour .contourNavigation input { font-size: 12px !important; padding: 2px !important; }
+
+
+@media screen and (max-width:960px){
+    #sharing{
+        display:none;
+    }
+}
+
+
+@media screen and (max-width:460px){
+    .copyrightDiv div {
+        width:93%;
+    }
+}
+
+@media screen and (max-width:950px){
+    #pagebar-hide {
+        display:none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
+
+/*
+     FILE ARCHIVED ON 15:21:38 Feb 22, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:54:34 May 14, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.663
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.011
+  esindex: 0.014
+  cdx.remote: 81.12
+  LoadShardBlock: 139.655 (3)
+  PetaboxLoader3.datanode: 146.677 (4)
+  load_resource: 129.63
+  PetaboxLoader3.resolve: 93.99
+*/

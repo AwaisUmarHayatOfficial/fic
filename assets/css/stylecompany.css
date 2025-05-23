@@ -1,0 +1,89 @@
+
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 9999px;  
+}
+
+
+.nbs-flexisel-inner {
+   float: left;
+    overflow: hidden;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.nbs-flexisel-item {
+   cursor: pointer;
+    float: left;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.nbs-flexisel-item img {
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:100px;
+    max-height:100px;
+    cursor: pointer;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    margin: 0 auto;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    
+}
+.nbs-flexisel-item img:hover {
+    transition: all 0.5s ease 0s;
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    cursor: pointer;
+    height: 29px;
+    opacity: 1;
+    position: absolute;
+    top: 89px !important;
+    width: 29px;
+    z-index: 100;
+}
+
+/*
+     FILE ARCHIVED ON 15:21:56 Feb 22, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:54:52 May 14, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.527
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.009
+  esindex: 0.009
+  cdx.remote: 78.391
+  LoadShardBlock: 95.014 (3)
+  PetaboxLoader3.datanode: 57.588 (4)
+  PetaboxLoader3.resolve: 97.317 (2)
+  load_resource: 67.684
+*/
