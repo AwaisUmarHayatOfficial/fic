@@ -1,0 +1,163 @@
+.paddingContentArea { padding: 0px 15px 0px !important; }
+
+.paddingContentArea a, .paddingContentArea a:link, .paddingContentArea a:visited, .paddingContentArea a:active { color:#3366CC; text-decoration:underline; }
+.paddingContentArea a:hover { color:#2AA8AA; }
+ 
+.paddingContentArea ul, .paddingContentArea ol { margin:15px 0 15px 30px;}
+.paddingContentArea ul li { list-style:initial; float: left; color:#333; line-height:20px; width: 100%; }
+.paddingContentArea ol li { list-style:initial; list-style-type:decimal; list-style-position:inside; color:#333; line-height:20px; }
+
+ul.fr-tag { margin:15px 0 15px 30px; }
+ol.fr-tag { margin:15px 0 15px 30px; }
+ul li.fr-tag { list-style:initial; float: left; color:#333; line-height:20px; width: 100%; }
+ol li.fr-tag { list-style:initial; list-style-type:decimal; float: left; color:#333; line-height:20px; width: 100%; }
+.fr-tag img{
+width:100% !important;
+}
+
+.paddingContentArea img { padding:5px; background-color:#FFF; border:solid 1px #E4E4E4; margin: 0px 10px 0px 0px; }
+.paddingContentArea .arrow{ padding:0px; background-color:transparent; border:0px; margin: 0px;}
+.paddingContentArea span { line-height:20px; margin-top:0; }
+
+.paddingContentArea .block_button img { padding:0px; background-color:transparent; border:none; float:none; margin:0px 2px; }
+.paddingContentArea .block_button, .paddingContentArea .block_button:link, .paddingContentArea .block_button:visited, .paddingContentArea .block_button:active{ color:#FFFFFF; text-decoration:none;}
+.paddingContentArea .block_button:hover {text-decoration:underline;}
+
+/*News and Events Pages*/
+.paddingContentArea .newsEventLink, .paddingContentArea .newsEventLink:link, .paddingContentArea .newsEventLink:visited, .paddingContentArea .newsEventLink:active{ color:#1276CC; text-decoration:none;}
+.paddingContentArea .newsEventLink:hover {text-decoration:underline;}
+
+.paddingContentArea .newsEventLink h4{ color:#1276CC;}
+.paddingContentArea .newsEventPageBlock a{color:#333}
+.paddingContentArea .newsEventPageBlock a:hover{color:#1276CC;}
+.paddingContentArea .pageNumbers a{color:#1276CC;}
+.paddingContentArea .pageNumbers a:hover{color:#1276CC;}
+/*End News and Events Pages*/
+
+
+.paginationNumbers a{
+  margin:10px 2px 10px 5px;
+  text-decoration: none;
+  float:left;
+  display: block;
+  width: 24px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 13px;
+  color:#063569;
+}
+
+.paginationNumbers a:hover{
+  text-decoration:underline;
+}
+
+.paginationNumbers .nonSelectedNumber:hover {
+  text-decoration:none;
+  background-image:url("images/search_selectedBG.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  color:#FFF;
+}
+
+.paginationNumbers .selectedNumber {
+  text-decoration:none;
+  color:#8a0303;
+}
+.paginationNumbers .current{
+    background: #8a0303 none repeat scroll 0 0;
+    color: #fff;
+    text-decoration: none;
+}
+.paginationNumbers .current:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
+.paddingContentArea {
+line-height:20px; margin-top:0;
+}
+
+h1 {
+color:#7a0d13 !important; font-size: 20px; margin: 0 0 15px;
+}
+
+h2 {
+ color: #7a0d13;     font-size: 16px;     margin: 15px 0 10px 0;
+ float: left; width: 100%;
+}
+
+h3 {
+margin:3px 0; color: #7a0d13;
+}
+
+h4 {
+ color: #7a0d13;     font-size: 13px;     margin: 15px 0 10px 0;
+}
+
+p {
+line-height:20px; width: 100%;  margin-top:0; text-align:left;
+}
+
+.childrensText {
+font-size:16px; font-weight:bold; color:#00872E;
+}
+

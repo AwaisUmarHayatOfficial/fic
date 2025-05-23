@@ -1,0 +1,68 @@
+
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 9999px;  
+}
+
+
+.nbs-flexisel-inner {
+   float: left;
+    overflow: hidden;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.nbs-flexisel-item {
+   cursor: pointer;
+    float: left;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.nbs-flexisel-item img {
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:100px;
+    max-height:100px;
+    cursor: pointer;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    margin: 0 auto;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    
+}
+.nbs-flexisel-item img:hover {
+    transition: all 0.5s ease 0s;
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    cursor: pointer;
+    height: 29px;
+    opacity: 1;
+    position: absolute;
+    top: 89px !important;
+    width: 29px;
+    z-index: 100;
+}

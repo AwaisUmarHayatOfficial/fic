@@ -1,0 +1,103 @@
+/* Tabbed content ----------------------------------------- */
+
+
+#supporttabs ul { list-style: none; margin: 0px; padding: 0; height: 28px; margin-left:2px; -moz-user-select: none; -khtml-user-select: none; user-select: none;}
+#supporttabs ul li { float: left; list-style: none; margin:0px 2px 0px 0px; padding: 0; }
+
+#supporttabs ul li a {
+  text-decoration: none; float: left;
+  padding: 0; height: 28px;
+  cursor: pointer;
+}
+
+#supporttabs ul li a .tabMiddleOff{
+  background: url("images/tab_off_strip.png") repeat-x right top !important;
+  color: #0b4790; float: left; display: inline-block;
+  font-weight: bold; font-size:14px; text-align:center;
+  height: 28px; line-height:28px; padding-left:5px; padding-right:5px;
+}
+
+#supporttabs ul li a .tabMiddleOn{
+  background: url("images/tab_on_strip.png") repeat-x right top;
+  color: #FFFFFF; 
+  float: left; 
+  display: inline-block;
+  font-weight: bold; 
+  font-size:14px; 
+  text-align:center;
+  height: 28px; 
+  line-height:28px; 
+  padding-left:5px; 
+  padding-right:5px;
+}
+
+#supporttabs ul li a .tabLeftOff{
+  height: 28px;
+  width:8px;
+  float:left;
+  background: url("images/tab_off_left.png") no-repeat !important;
+}
+
+#supporttabs ul li a .tabRightOff{
+  height: 28px;
+  width:8px;
+  float:left;
+  background: url("images/tab_off_right.png") no-repeat !important;
+}
+#supporttabs ul li a .tabLeftOn{
+  height: 28px;
+  width:8px;
+  float:left;
+  background: url("images/tab_on_left.png") no-repeat;
+}
+
+#supporttabs ul li a .tabRightOn{
+  height: 28px;
+  width:8px;
+  float:left;
+  background: url("images/tab_on_right.png") no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
